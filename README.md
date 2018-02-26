@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.
 
-#Demo
+# Demo
 
 https://mukuljp.github.io/DiagnalWorkshop/
 
