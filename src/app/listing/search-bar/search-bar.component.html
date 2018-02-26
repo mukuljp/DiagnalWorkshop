@@ -1,0 +1,14 @@
+<div class="closeicon"> <span (click)="close()">X</span></div>
+ <div class="input-ctrl">
+   <form >
+     <input name="search" [(ngModel)]="searchstr" type="text" placeholder="Search Movies">
+   </form>
+   </div>
+   <div class="row listing scrollbar">
+      <div class="col s12 m12 l12" *ngFor="let movie of movieList | filter : searchstr">
+        <app-movie-list-item [sizesc]="12" [movie]="movie"  ></app-movie-list-item>
+       
+      </div>
+      <div class="zeroitem" *ngIf="(movieList|filter : searchstr).length==0">No Movie Found</div>
+   </div>
+

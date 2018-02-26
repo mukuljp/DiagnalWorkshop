@@ -1,0 +1,12 @@
+:host{
+  background:black;
+  display:block;
+  margin-top:118px;
+    
+}
+
+.grid{
+    background: #aaa;
+	display: flex;
+	flex-wrap: wrap;
+}

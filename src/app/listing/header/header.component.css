@@ -1,0 +1,61 @@
+.fixedhead{
+    height:100px;
+    background: black;
+    color:white;
+    position: fixed;
+    left:0px;
+    width:100%;
+    top:0px;
+    z-index: 99999;
+}
+.blurreffect{
+    background-image:url('assets/nav_bar.png');
+    height:36px;
+    height: 31px;
+    background-repeat: repeat-x;
+    /* background-position-x: 0px; */
+    /* background-position-y: 0px; */
+    background-size: contain;
+}
+.maincont{
+height:78px;
+}
+.search{
+    text-align:center;
+    margin-top: 8%;
+    
+}
+.search i{
+    font-size:36pt;
+    cursor:pointer;
+}
+.backicon i{
+    font-size:36pt;
+    vertical-align: middle;
+}
+.nombottom{
+    margin-bottom: 0px
+}
+@media (max-width: 515px) {
+    .backicon{
+        font-size:20px;;
+    }
+    .backicon i{
+        font-size:20px;;
+    } 
+    .search i{
+        font-size:20pt;
+    }
+}
+@media (max-width: 323px) {
+    .backicon{
+        font-size:15px;;
+    }
+    .backicon i{
+        font-size:20px;;
+    }
+    
+    .search i{
+        font-size:20pt;
+    } 
+}

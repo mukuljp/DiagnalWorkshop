@@ -1,0 +1,20 @@
+:host{
+   
+}
+ .item{
+     background-color: black;
+     margin-bottom:90px;
+ }
+:host img{
+     width:100%;
+     height:auto;
+ 
+ }
+ .desc{
+    margin-top:24px;
+    font-size:25px; color:#FFFFFF;text-align:  Left;word-wrap: break-word;
+}
+.item{
+
+    width:100%;
+}

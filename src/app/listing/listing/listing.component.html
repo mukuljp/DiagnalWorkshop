@@ -1,0 +1,13 @@
+<app-header [pageTitle]="pageTitle" [movieList]= "movieList" ></app-header>
+
+<app-movie-list [movieList]= "movieList"
+
+infiniteScroll
+[infiniteScrollDistance]="2"
+[infiniteScrollThrottle]="50"
+(scrolled)="onScroll()"
+[scrollWindow]="true"
+>
+</app-movie-list>
+
+

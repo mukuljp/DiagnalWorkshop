@@ -1,0 +1,8 @@
+<header class="fixedhead">
+  <div class="maincont row ">
+    <div class="col s8 m8 l8"><h2  *ngIf="!searchBar" class="backicon"><i class="material-icons  ">arrow_back</i>{{pageTitle}}</h2></div>
+    <div class="col s4 m4 l4" (click) = "openSearch()"><h2 class="search" *ngIf="!searchBar"><i class="material-icons ">search</i></h2></div>
+  </div>
+<div class="blurreffect"></div>
+</header>
+<app-search-bar [movieList]="movieList" (onClose)="closeSearch()" *ngIf="searchBar"></app-search-bar>
