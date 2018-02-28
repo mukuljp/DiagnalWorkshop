@@ -9,6 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
+    "build.prod":"ng build --prod --base-href https://mukuljp.github.io/DiagnalWorkshop/"
   },
   "private": true,
   "dependencies": {
