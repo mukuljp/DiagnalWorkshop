@@ -6,6 +6,7 @@ import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
   styleUrls: ['./search-bar.component.css']
 })
 export class SearchBarComponent implements OnInit {
+  public searchstr:string='';
   @Output()
   onClose: EventEmitter<any> = new EventEmitter<any>();
   @Input() public movieList=[];
